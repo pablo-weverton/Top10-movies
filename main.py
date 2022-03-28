@@ -8,7 +8,7 @@ import requests
 
 # Create a Flask application
 app = Flask(__name__)
-app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
+app.config['SECRET_KEY'] = 'uma-string-aleatória'
 
 # Setting Database
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///lista_movies.db'
